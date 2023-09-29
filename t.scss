@@ -1,0 +1,158 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(189, 189, 231);
+    .active{
+        display: block;
+    } 
+    .wel{
+        flex:12;
+    }
+    .list{
+        padding: 5rem; 
+        flex:12;
+    }
+     a{
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+         a{
+            text-decoration: none;
+        };
+    }
+    ul{
+        display:flex;
+        gap:20px;
+        list-style: none;
+      
+    }
+        .company{
+            flex:3;
+        }
+        .res{
+            flex:3;
+        }
+        .dis{
+            flex:3;
+        }
+        .add{
+            flex:3;
+        }
+    }
+    .menu{
+        display:none;
+        }
+     
+
+    
+@media  (max-width:960px){
+    body{
+        background-color:rgb(220, 248, 220);
+    }
+    .wel{
+        background-color:rgb(100, 175, 100);
+        padding: 2rem;
+    }
+    .menu{
+        display: block;
+    }
+    section{
+        background: none;
+        flex-direction: column;
+    }
+    ul{
+        flex-direction:column;
+       background-color:green;
+       text-align: center; 
+
+    }
+    .list{
+        flex-direction: column;
+        display: none;
+    }
+    section{
+        padding:0%;
+    }
+}
+
+@media  (max-width:720px){
+    body{
+        background-color: whitesmoke;
+    }
+    .wel{
+        background-color: cadetblue;
+        padding: 2rem;
+    }
+    section{
+        background: none;
+        flex-direction: row;
+    }
+    ul{
+        flex-direction:column;
+       background-color:rgb(243, 240, 240);
+       text-align:center;  
+
+    }
+    .list{
+        flex-direction: column;
+    }
+    section{
+        padding:0%;
+    }
+}
+@media  (max-width:640px){
+    body{
+        background-color: rgb(35, 68, 2);
+    }
+    .wel{
+        background-color: rgb(3, 67, 70);
+        padding: 2rem;
+    }
+    section{
+        background: none;
+        flex-direction: row;
+    }
+    ul{
+        flex-direction:column;
+       background-color:rgb(3, 145, 145);
+       text-align:center;  
+
+    }
+    .list{
+        flex-direction: row-reverse;
+    }
+    section{
+        padding:0%;
+    }
+}  
+@media  (max-width:320px){
+    body{
+        background-color: chartreuse;
+    }
+    .wel{
+        background-color: cadetblue;
+        padding: 2rem;
+    }
+    section{
+        background: none;
+        flex-direction: column;
+    }
+    ul{
+        flex-direction:column;
+       background-color:rgb(240, 243, 243);
+       text-align:center;  
+
+    }
+    .list{
+        flex-direction: column;
+    }
+    section{
+        padding:0%;
+    }
+
+}
+
